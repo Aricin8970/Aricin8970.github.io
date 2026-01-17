@@ -1,29 +1,18 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2026-01-16 18:40:32 -0500
+title: "Introductory Reflection: Data Science in Social Contexts"
+date: 2026-01-16
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+---
+layout: post
 
-Jekyll requires blog post files to be named according to the following format:
+---
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Data Science has been something I’ve wanted to do since high school. I’ve always enjoyed coding and knew that whatever I did had to deal with that, but when I first heard about Data Science as a job I didn’t know exactly what it entailed. I viewed it as just a cool and practical application of coding, something I’ve always been interested in. 
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+It wasn’t until I started college classes that I started to recognize the importance of ethics and the social impact that Data can have on people. It sounds almost like common sense that there are people at the end of the numbers, that it’s not just ones and zeros but oftentimes people in comfortable positions can forget that. When handling data it becomes exceedingly important that we remember the human aspect, handling data responsibility, taking account of privacy concerns, bias, the chance the data could be wrong, incorrect, or missing something etc. Data Science is about solving problems and providing actionable insights but it should never come at the cost of real ethical concerns. 
 
-Jekyll also offers powerful support for code snippets:
+With this in mind, I have more insight into the direction I want to go. Learning about this side of Data Science made me more conscientious of where my data is coming from, what I’m doing with it, and what the data is missing or just not showing. What’s done with data collected can have a really positive but also incredibly negative effect on populations of people depending on how it’s used. 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Ultimately I aim to build my skills in python and other tools for the benefit of others. Modeling populations because understanding trends and behaviors in humans can be used to inform political policies, social programs and a lot more. This portfolio is a way to showcase my growth in the technical aspect, and with the blogs I would like to explore ethical guidelines and considerations. Thank you for reading.
