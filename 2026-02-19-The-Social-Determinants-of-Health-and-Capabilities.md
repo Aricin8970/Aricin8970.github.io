@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Your Post Title"
+date: 2024-05-20
+---
+
+The **Social Determinants of Health** (SDOH) are self explanatory. How healthy you are is not solely based on medical factors like genetics but on many social and economic factors. In the world we live in it’s entirely possible that something as simple as a zip code can be a better predictor of your health than genetic code. This is possible because our environment is what shapes the chances we get and the opportunities we receive. Paying attention to the SDOH can provide more insight into the health and wellbeing of people and a country, telling us the how and why behind certain health outcomes.
+
+This ties neatly into **Amartya Sen’s** *Capabilities Approach* (CA) which states that economical numbers like GDP and utility aren’t enough to determine a good society. Instead, we should also be able to look at what humans in said economy are able to do and be. It’s a well known and studied phenomenon that happiness and depression can contribute to health outcomes and being able to move about freely, being well nourished, being able to do things with the life you have are all things that can tie into how healthy you are in the long run. **Martha Nussbaum** expanded on this by giving a practical list of 10 “Central Human Capabilities” (bodily health, practical reason, etc) that governments should be able to guarantee. If everyone in a society is above the threshold of these 10 capabilities then the government is doing its job. 
+
+This is the importance of the CA working in tandem with the SDOH. Even with a lot of money (resources) a person’s capabilities can still be restricted if there’s no grocery store (an SDOH) for miles. In public health there’s always the argument between choice and opportunity but even with all the resources, if you have to work two jobs all day long then they can still lack the capability of bodily health even if they know its importance. It’s not a choice, but a lack of opportunity. One could even say they wouldn’t have the freedom to choose health due to a lack of capability. Only when we are aware and actively working for good social determinants of health can resources be turned into capabilities. It's in those capablities that oppurtunity lies and after that, individual choice and well being.
