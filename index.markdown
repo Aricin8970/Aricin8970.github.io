@@ -3,8 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Home
 ---
-## Sections
 
-- [Projects](/projects/)  <!-- or /_projects/ depending on your theme -->
-- [Blog](/)  <!-- posts will appear on homepage if using a blog index -->
+### Sections
+
+* [Projects](_projects/placeholder.md)
+* [Blog](_posts/)
