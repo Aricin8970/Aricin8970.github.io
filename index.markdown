@@ -4,7 +4,6 @@
 
 layout: home
 ---
-## Sections
 
 - [Projects](/projects/)  <!-- or /_projects/ depending on your theme -->
 - [Blog](/)  <!-- posts will appear on homepage if using a blog index -->
