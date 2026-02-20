@@ -8,4 +8,4 @@ nav_exclude: true
 ---
 
 * [Projects](_projects/placeholder.md)
-* [Blog](_posts/)
+* [Blog](blog.md)
