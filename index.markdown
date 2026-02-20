@@ -3,11 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: ""
+title: "Home"
 nav_exclude: true
 ---
 
-### Sections
 
 * [Projects](_projects/placeholder.md)
 * [Blog](blog.md)
