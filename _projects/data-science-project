@@ -4,7 +4,6 @@ date: 2026-02-23
 layout: post
 ---
 
-## Overview
 The purpose of this project was to complete a full data science exploration demonstrating that I can:
 - define a reasonable, well-scoped data science problem,
 - clean and explore a real-world dataset,
@@ -19,13 +18,3 @@ The purpose of this project was to complete a full data science exploration demo
 ## Methods
 - Data Cleaning with Pandas  
 - Visualizations with Seaborn and Matplotlib  
-
-## Example Graph
-
-![Graph](/assets/images/output.png)
-
-## Full Essay
-[Download Full Essay](/assets/files/analysis.pdf)
-
-## Code
-[View Notebook](/assets/files/Project1.ipynb)
