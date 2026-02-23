@@ -8,5 +8,5 @@ nav_exclude: true
 ---
 
 
-* [Projects](projects.md)
+* [Projects](/projects/)
 * [Blog](blog.md)
