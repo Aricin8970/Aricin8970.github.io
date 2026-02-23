@@ -23,7 +23,7 @@ The puropse of this project was to complete a full data science exploration demo
 
 ## Full Essay & Code
 - [Click here to read my full essay (PDF)](/assets/files/analysis.pdf)
-- [Juypter Notebook Code](/assets/files/Project1.ipynb)
+- [Juypter Notebook Code](/assets/files/python.html)
 
 ## Results
 ![Active minutes & happiness](/assets/images/myproject1/fourth.png)
