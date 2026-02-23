@@ -5,8 +5,6 @@ permalink: /projects/my-project1/
 categories: [data-science, project]
 ---
 
-![Banner]({{ site.baseurl }}/assets/images/social-media-happiness/banner.png)
-
 ## Overview
 The puropse of this project was to complete a full data science exploration demonstrating that I can:
 - define a reasonable, well-scoped data science problem,
