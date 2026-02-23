@@ -5,29 +5,27 @@ layout: page
 ---
 
 ## Overview
-The puropse of this project was to complete a full data science exploration demonstrating that I can:
+The purpose of this project was to complete a full data science exploration demonstrating that I can:
 - define a reasonable, well-scoped data science problem,
 - clean and explore a real-world dataset,
 - create effective visualizations that help answer questions,
 - and thoughtfully reflect on what the data does (and does not) tell me.
 
 ## Dataset
-- Source: [Kaggle Dataset](https://www.kaggle.com/datasets/rockyt07/social-media-user-analysis)
-- Size: [1,000,000 rows/57 columns]
-- Description: ["This dataset contains 1,000,000+ fully synthetic user profiles that realistically simulate Instagram usage patterns combined with detailed demographic, lifestyle, health, and behavioral attributes."]
+- Source: https://www.kaggle.com/datasets/rockyt07/social-media-user-analysis  
+- Size: 1,000,000 rows / 57 columns  
+- Description: Synthetic dataset simulating Instagram usage patterns and demographics.
 
 ## Methods
-- Data Cleaning with Pandas
-- Visualizations with Seaborn and Matplotlib
+- Data Cleaning with Pandas  
+- Visualizations with Seaborn and Matplotlib  
 
 ## Example Graph
 
-![Graph](assets/images/output.png)
+![Graph](/assets/images/output.png)
 
 ## Full Essay
-[Download Full Essay](assets/files/analysis.pdf)
+[Download Full Essay](/assets/files/analysis.pdf)
 
 ## Code
-[View Code](assets/files/Project1.ipynb)
-
-
+[View Notebook](/assets/files/Project1.ipynb)
