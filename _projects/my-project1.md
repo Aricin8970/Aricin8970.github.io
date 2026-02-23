@@ -23,6 +23,9 @@ The puropse of this project was to complete a full data science exploration demo
 - Data Cleaning with Pandas
 - Visualizations with Seaborn and Matplotlib
 
+## Essay & Code
+[Click here to read my full essay (PDF)](/assets/data-science-essay.pdf)
+
 ## Results
 ![Active minutes & happiness](assets/images/myproject1/fourth.png)
 ![Active minutes & stress score](assets/images/myproject1/fifth.png)
