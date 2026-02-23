@@ -1,20 +1,8 @@
 ---
 layout: post
-title: "Project 1: Defining a Data Science Problem & Understanding Data"
-date: 2026-02-23
+title: "The Social Determinants of Health and Capabilities"
+date: 2026-02-19
 ---
 
-The purpose of this project was to complete a full data science exploration demonstrating that I can:
-- define a reasonable, well-scoped data science problem,
-- clean and explore a real-world dataset,
-- create effective visualizations that help answer questions,
-- and thoughtfully reflect on what the data does (and does not) tell me.
-
-## Dataset
-- Source: https://www.kaggle.com/datasets/rockyt07/social-media-user-analysis  
-- Size: 1,000,000 rows / 57 columns  
-- Description: Synthetic dataset simulating Instagram usage patterns and demographics.
-
-## Methods
-- Data Cleaning with Pandas  
-- Visualizations with Seaborn and Matplotlib  
+The **Social Determinants of Health** (SDOH) are self explanatory. How healthy you are is not solely based on medical factors like genetics but on many social and economic factors. 
+In the world we live in it’s entirely possible that something as simple as a zip code can be a better predictor of your health than genetic code. This is possible because our environment is what shapes the chances we get and the opportunities we receive. Paying attention to the SDOH can provide m
