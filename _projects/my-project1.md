@@ -19,6 +19,10 @@ The puropse of this project was to complete a full data science exploration demo
 - Size: [1,000,000 rows/57 columns]
 - Description: ["This dataset contains 1,000,000+ fully synthetic user profiles that realistically simulate Instagram usage patterns combined with detailed demographic, lifestyle, health, and behavioral attributes."]
 
+## Methods
+- Data Cleaning with Pandas
+- Visualizations with Seaborn and Matplotlib
+
 ## Results
 ![Active minutes vs happiness]({{ site.baseurl }}/assets/images/social-media-happiness/plot_active_happiness.png)
 
