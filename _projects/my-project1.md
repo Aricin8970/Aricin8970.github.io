@@ -22,10 +22,10 @@ The puropse of this project was to complete a full data science exploration demo
 - Visualizations with Seaborn and Matplotlib
 
 ## Full Essay & Code
-- [Click here to read my full essay (PDF)](assets/files/analysis.pdf)
-- [Juypter Notebook Code](assets/files/Project1.ipynb)
+- [Click here to read my full essay (PDF)](/assets/files/analysis.pdf)
+- [Juypter Notebook Code](/assets/files/Project1.ipynb)
 
 ## Results
-![Active minutes & happiness](assets/images/myproject1/fourth.png)
-![Active minutes & stress score](assets/images/myproject1/fifth.png)
+![Active minutes & happiness](/assets/images/myproject1/fourth.png)
+![Active minutes & stress score](/assets/images/myproject1/fifth.png)
 
