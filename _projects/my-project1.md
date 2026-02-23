@@ -14,6 +14,11 @@ The puropse of this project was to complete a full data science exploration demo
 - create effective visualizations that help answer questions,
 - and thoughtfully reflect on what the data does (and does not) tell me.
 
+## Dataset
+- Source: https://www.kaggle.com/datasets/rockyt07/social-media-user-analysis
+- Size: [1,000,000 rows/57 columns]
+- Description: ["This dataset contains 1,000,000+ fully synthetic user profiles that realistically simulate Instagram usage patterns combined with detailed demographic, lifestyle, health, and behavioral attributes."]
+
 ## Results
 ![Active minutes vs happiness]({{ site.baseurl }}/assets/images/social-media-happiness/plot_active_happiness.png)
 
