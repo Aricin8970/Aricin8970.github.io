@@ -1,0 +1,33 @@
+---
+title: "Project 1: Defining a Data Science Problem & Understanding Data"
+date: 2026-02-23
+layout: page
+---
+
+## Overview
+The puropse of this project was to complete a full data science exploration demonstrating that I can:
+- define a reasonable, well-scoped data science problem,
+- clean and explore a real-world dataset,
+- create effective visualizations that help answer questions,
+- and thoughtfully reflect on what the data does (and does not) tell me.
+
+## Dataset
+- Source: https://www.kaggle.com/datasets/rockyt07/social-media-user-analysis
+- Size: [1,000,000 rows/57 columns]
+- Description: ["This dataset contains 1,000,000+ fully synthetic user profiles that realistically simulate Instagram usage patterns combined with detailed demographic, lifestyle, health, and behavioral attributes."]
+
+## Methods
+- Data Cleaning with Pandas
+- Visualizations with Seaborn and Matplotlib
+
+## Example Graph
+
+![Graph](Data Science\ds-studio-ii\Project 1\output.png)
+
+## Full Essay
+See file:///C:/Users/arici/OneDrive/Desktop/Data%20Science/ds-studio-ii/Project%201/analysis.pdf
+
+## Code
+https://github.com/Aricin8970/project-repo
+
+
