@@ -25,7 +25,7 @@ The puropse of this project was to complete a full data science exploration demo
 
 ## Results
 ![Active minutes & happiness](assets/images/myproject1/fourth.png)
-![Active minutes & stress score](
+![Active minutes & stress score](assets/images/myproject1/fifth.png)
 
 ## Code
 View on GitHub: https://github.com/YOURUSERNAME/YOUR-REPO/tree/main/projects-code/social-media-happiness  
