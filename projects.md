@@ -6,6 +6,10 @@ permalink: /projects/
 
 ## My Projects
 
-{% for project in site.projects %}
-- [{{project.title }}]({{ project.url }})
-{% endfor %}
+<ul>
+  {% for project in site.projects %}
+    <li>
+      <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
