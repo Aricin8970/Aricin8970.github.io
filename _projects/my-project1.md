@@ -24,7 +24,8 @@ The puropse of this project was to complete a full data science exploration demo
 - Visualizations with Seaborn and Matplotlib
 
 ## Results
-![Active minutes vs happiness]({{ site.baseurl }}/assets/images/social-media-happiness/plot_active_happiness.png)
+![Active minutes & happiness](assets/images/myproject1/fourth.png)
+![Active minutes & stress score](
 
 ## Code
 View on GitHub: https://github.com/YOURUSERNAME/YOUR-REPO/tree/main/projects-code/social-media-happiness  
