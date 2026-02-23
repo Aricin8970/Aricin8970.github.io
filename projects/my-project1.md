@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Social Media & Happiness"
-permalink: /projects/social-media-happiness/
+title: "Project 1: Defining a Data Science Problem & Understanding Data"
+permalink: /projects/my-project1/
 categories: [data-science, project]
 ---
 
