@@ -7,8 +7,8 @@
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Project 1: Defining a Data Science Problem &amp; Understanding Data" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Overview The puropse of this project was to complete a full data science exploration demonstrating that I can: define a reasonable, well-scoped data science problem, clean and explore a real-world dataset, create effective visualizations that help answer questions, and thoughtfully reflect on what the data does (and does not) tell me." />
-<meta property="og:description" content="Overview The puropse of this project was to complete a full data science exploration demonstrating that I can: define a reasonable, well-scoped data science problem, clean and explore a real-world dataset, create effective visualizations that help answer questions, and thoughtfully reflect on what the data does (and does not) tell me." />
+<meta name="description" content="Overview The purpose of this project was to complete a full data science exploration demonstrating that I can: define a reasonable, well-scoped data science problem, clean and explore a real-world dataset, create effective visualizations that help answer questions, and thoughtfully reflect on what the data does (and does not) tell me." />
+<meta property="og:description" content="Overview The purpose of this project was to complete a full data science exploration demonstrating that I can: define a reasonable, well-scoped data science problem, clean and explore a real-world dataset, create effective visualizations that help answer questions, and thoughtfully reflect on what the data does (and does not) tell me." />
 <link rel="canonical" href="https://aricin8970.github.io//projects/data-science-project" />
 <meta property="og:url" content="https://aricin8970.github.io//projects/data-science-project" />
 <meta property="og:site_name" content="Aricin’s portfolio" />
@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Project 1: Defining a Data Science Problem &amp; Understanding Data" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-02-23T00:00:00+00:00","datePublished":"2026-02-23T00:00:00+00:00","description":"Overview The puropse of this project was to complete a full data science exploration demonstrating that I can: define a reasonable, well-scoped data science problem, clean and explore a real-world dataset, create effective visualizations that help answer questions, and thoughtfully reflect on what the data does (and does not) tell me.","headline":"Project 1: Defining a Data Science Problem &amp; Understanding Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://aricin8970.github.io//projects/data-science-project"},"url":"https://aricin8970.github.io//projects/data-science-project"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-02-23T00:00:00+00:00","datePublished":"2026-02-23T00:00:00+00:00","description":"Overview The purpose of this project was to complete a full data science exploration demonstrating that I can: define a reasonable, well-scoped data science problem, clean and explore a real-world dataset, create effective visualizations that help answer questions, and thoughtfully reflect on what the data does (and does not) tell me.","headline":"Project 1: Defining a Data Science Problem &amp; Understanding Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://aricin8970.github.io//projects/data-science-project"},"url":"https://aricin8970.github.io//projects/data-science-project"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://aricin8970.github.io//feed.xml" title="Aricin&apos;s portfolio" /></head>
 <body><header class="site-header" role="banner">
@@ -45,32 +45,30 @@
 
   <div class="post-content">
     ## Overview
-The puropse of this project was to complete a full data science exploration demonstrating that I can:
+The purpose of this project was to complete a full data science exploration demonstrating that I can:
 - define a reasonable, well-scoped data science problem,
 - clean and explore a real-world dataset,
 - create effective visualizations that help answer questions,
 - and thoughtfully reflect on what the data does (and does not) tell me.
 
 ## Dataset
-- Source: [Kaggle Dataset](https://www.kaggle.com/datasets/rockyt07/social-media-user-analysis)
-- Size: [1,000,000 rows/57 columns]
-- Description: ["This dataset contains 1,000,000+ fully synthetic user profiles that realistically simulate Instagram usage patterns combined with detailed demographic, lifestyle, health, and behavioral attributes."]
+- Source: https://www.kaggle.com/datasets/rockyt07/social-media-user-analysis  
+- Size: 1,000,000 rows / 57 columns  
+- Description: Synthetic dataset simulating Instagram usage patterns and demographics.
 
 ## Methods
-- Data Cleaning with Pandas
-- Visualizations with Seaborn and Matplotlib
+- Data Cleaning with Pandas  
+- Visualizations with Seaborn and Matplotlib  
 
 ## Example Graph
 
-![Graph](assets/images/output.png)
+![Graph](/assets/images/output.png)
 
 ## Full Essay
-[Download Full Essay](assets/files/analysis.pdf)
+[Download Full Essay](/assets/files/analysis.pdf)
 
 ## Code
-[View Code](assets/files/Project1.ipynb)
-
-
+[View Notebook](/assets/files/Project1.ipynb)
 
   </div>
 
