@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Project 1: Defining a Data Science Problem &amp; Understanding Data | Aricin’s portfolio</title>
+<title>The Social Determinants of Health and Capabilities | Aricin’s portfolio</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Project 1: Defining a Data Science Problem &amp; Understanding Data" />
+<meta property="og:title" content="The Social Determinants of Health and Capabilities" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The purpose of this project was to complete a full data science exploration demonstrating that I can: define a reasonable, well-scoped data science problem, clean and explore a real-world dataset, create effective visualizations that help answer questions, and thoughtfully reflect on what the data does (and does not) tell me." />
-<meta property="og:description" content="The purpose of this project was to complete a full data science exploration demonstrating that I can: define a reasonable, well-scoped data science problem, clean and explore a real-world dataset, create effective visualizations that help answer questions, and thoughtfully reflect on what the data does (and does not) tell me." />
+<meta name="description" content="The Social Determinants of Health (SDOH) are self explanatory. How healthy you are is not solely based on medical factors like genetics but on many social and economic factors. In the world we live in it’s entirely possible that something as simple as a zip code can be a better predictor of your health than genetic code. This is possible because our environment is what shapes the chances we get and the opportunities we receive. Paying attention to the SDOH can provide m" />
+<meta property="og:description" content="The Social Determinants of Health (SDOH) are self explanatory. How healthy you are is not solely based on medical factors like genetics but on many social and economic factors. In the world we live in it’s entirely possible that something as simple as a zip code can be a better predictor of your health than genetic code. This is possible because our environment is what shapes the chances we get and the opportunities we receive. Paying attention to the SDOH can provide m" />
 <link rel="canonical" href="https://aricin8970.github.io//projects/data-science-project" />
 <meta property="og:url" content="https://aricin8970.github.io//projects/data-science-project" />
 <meta property="og:site_name" content="Aricin’s portfolio" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2026-02-23T00:00:00+00:00" />
+<meta property="article:published_time" content="2026-02-19T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Project 1: Defining a Data Science Problem &amp; Understanding Data" />
+<meta property="twitter:title" content="The Social Determinants of Health and Capabilities" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-02-23T00:00:00+00:00","datePublished":"2026-02-23T00:00:00+00:00","description":"The purpose of this project was to complete a full data science exploration demonstrating that I can: define a reasonable, well-scoped data science problem, clean and explore a real-world dataset, create effective visualizations that help answer questions, and thoughtfully reflect on what the data does (and does not) tell me.","headline":"Project 1: Defining a Data Science Problem &amp; Understanding Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://aricin8970.github.io//projects/data-science-project"},"url":"https://aricin8970.github.io//projects/data-science-project"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-02-19T00:00:00+00:00","datePublished":"2026-02-19T00:00:00+00:00","description":"The Social Determinants of Health (SDOH) are self explanatory. How healthy you are is not solely based on medical factors like genetics but on many social and economic factors. In the world we live in it’s entirely possible that something as simple as a zip code can be a better predictor of your health than genetic code. This is possible because our environment is what shapes the chances we get and the opportunities we receive. Paying attention to the SDOH can provide m","headline":"The Social Determinants of Health and Capabilities","mainEntityOfPage":{"@type":"WebPage","@id":"https://aricin8970.github.io//projects/data-science-project"},"url":"https://aricin8970.github.io//projects/data-science-project"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://aricin8970.github.io//feed.xml" title="Aricin&apos;s portfolio" /></head>
 <body><header class="site-header" role="banner">
@@ -40,27 +40,15 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Project 1: Defining a Data Science Problem &amp; Understanding Data</h1>
+    <h1 class="post-title p-name" itemprop="name headline">The Social Determinants of Health and Capabilities</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2026-02-23T00:00:00+00:00" itemprop="datePublished">Feb 23, 2026
+      <time class="dt-published" datetime="2026-02-19T00:00:00+00:00" itemprop="datePublished">Feb 19, 2026
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    The purpose of this project was to complete a full data science exploration demonstrating that I can:
-- define a reasonable, well-scoped data science problem,
-- clean and explore a real-world dataset,
-- create effective visualizations that help answer questions,
-- and thoughtfully reflect on what the data does (and does not) tell me.
-
-## Dataset
-- Source: https://www.kaggle.com/datasets/rockyt07/social-media-user-analysis  
-- Size: 1,000,000 rows / 57 columns  
-- Description: Synthetic dataset simulating Instagram usage patterns and demographics.
-
-## Methods
-- Data Cleaning with Pandas  
-- Visualizations with Seaborn and Matplotlib  
+    The **Social Determinants of Health** (SDOH) are self explanatory. How healthy you are is not solely based on medical factors like genetics but on many social and economic factors. 
+In the world we live in it’s entirely possible that something as simple as a zip code can be a better predictor of your health than genetic code. This is possible because our environment is what shapes the chances we get and the opportunities we receive. Paying attention to the SDOH can provide m
 
   </div><a class="u-url" href="/projects/data-science-project" hidden></a>
 </article>
