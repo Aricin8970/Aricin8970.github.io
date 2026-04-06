@@ -40,7 +40,4 @@ This project found that the available variables had **very weak predictive power
 
 This suggests that variables like price, category, review score, and review count were not enough on their own to explain sales in this dataset. More useful predictors might include advertising, discounts, brand strength, seasonality, or customer demand.
 
-![Distribution of annual sales](/assets/images/myproject2/annual_sales_distribution.png)
-![Average annual sales by category](/assets/images/myproject2/category_avg_sales.png)
-![Correlation heatmap](/assets/images/myproject2/correlation_heatmap.png)
-![Model comparison](/assets/images/myproject2/model_comparison.png)
+![Distribution of annual sales](/assets/images/myProject2/distributionpicture.png)
