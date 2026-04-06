@@ -33,7 +33,7 @@ The purpose of this project was to use machine learning to predict product sales
 
 ## Full Essay & Code
 - [Click here to read my full technical report (PDF)](assets/files/Project 2 wite up.pdf)
-- [Jupyter Notebook Code](/assets/files/python.html)
+- [Jupyter Notebook Code](/assets/files/Project2code.html)
 
 ## Results
 This project found that the available variables had **very weak predictive power** for annual sales. The best model was **Ridge Regression**, but its R² value was still slightly below 0, meaning the models did not predict sales well.
