@@ -1,0 +1,46 @@
+---
+layout: page
+title: "Project 2: Predicting Product Sales with Machine Learning"
+permalink: /projects/my-project2/
+categories: [data-science, machine-learning, project]
+---
+
+## Overview
+The purpose of this project was to use machine learning to predict product sales and understand which product features are associated with higher sales. In this project, I worked through a full data science and machine learning process demonstrating that I can:
+- define a focused machine learning research question,
+- clean and prepare a dataset for analysis,
+- explore patterns in the data with summary statistics and visualizations,
+- build and compare multiple machine learning models,
+- and interpret the results honestly, including the limitations of the dataset.
+
+## Dataset
+- Source: https://www.kaggle.com/datasets/fahmidachowdhury/e-commerce-sales-analysis?resource=download
+- Size: **1,000 rows** with product information and monthly sales columns
+- Description: This dataset contains product-level information including category, price, review score, review count, and sales for 12 months. I created a new target variable called `annual_sales` by summing the monthly sales columns.
+
+## Methods
+- Data cleaning and preprocessing with **Pandas**
+- Exploratory data analysis with **Pandas, Matplotlib, and Seaborn**
+- Feature encoding and scaling with **scikit-learn**
+- Machine learning models:
+  - Linear Regression
+  - Random Forest Regressor
+  - Gradient Boosting Regressor
+- Model evaluation using:
+  - MAE
+  - RMSE
+  - R²
+
+## Full Essay & Code
+- [Click here to read my full technical report (PDF)](/assets/files/analysis.pdf)
+- [Jupyter Notebook Code](/assets/files/python.html)
+
+## Results
+This project found that the available variables had **very weak predictive power** for annual sales. The best model was **Ridge Regression**, but its R² value was still slightly below 0, meaning the models did not predict sales well.
+
+This suggests that variables like price, category, review score, and review count were not enough on their own to explain sales in this dataset. More useful predictors might include advertising, discounts, brand strength, seasonality, or customer demand.
+
+![Distribution of annual sales](/assets/images/myproject2/annual_sales_distribution.png)
+![Average annual sales by category](/assets/images/myproject2/category_avg_sales.png)
+![Correlation heatmap](/assets/images/myproject2/correlation_heatmap.png)
+![Model comparison](/assets/images/myproject2/model_comparison.png)
