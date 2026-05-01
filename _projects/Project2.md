@@ -32,7 +32,7 @@ The purpose of this project was to use machine learning to predict product sales
   - R²
 
 ## Full Essay & Code
-- [Click here to read my full technical report (PDF)](/assets/files/Project2writeup.pdf)
+- [Click here to read my full technical report (PDF)](/assets/files/Project21writeup.pdf)
 - [Jupyter Notebook Code](/assets/files/project2.2code.html)
 
 ## Results
