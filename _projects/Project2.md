@@ -33,7 +33,7 @@ The purpose of this project was to use machine learning to predict product sales
 
 ## Full Essay & Code
 - [Click here to read my full technical report (PDF)](/assets/files/Project21writeup.pdf)
-- [Jupyter Notebook Code](/assets/files/project2.2code.html)
+- [Jupyter Notebook Code](/assets/files/Project21code.html)
 
 ## Results
 This project found that the available variables had **very weak predictive power** for annual sales. The best model was **Linear Regression**, but its R² value was still slightly below 0, meaning the models did not predict sales well.
