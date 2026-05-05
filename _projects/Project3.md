@@ -36,7 +36,7 @@ The final takeaway is that machine learning can help identify patterns in water 
 - Description: [This dataset covers around 160,000 public water systems all around the U.S. and it included monitoring, enforcement, and violation data that was collected by states and then reported to the EPA.]
 
 ## Full Essay & Code
-- [Click here to read my full essay (PDF)](/assets/files/analysis.pdf)
+- [Click here to read my full essay (PDF)](/assets/files/finalprojectwriteup.pdf)
 - [Juypter Notebook Code](/assets/files/python.html)
 
 ## Results
