@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Project 3: Predicting Water System Violations"
-permalink: /projects/Project3.md/
+permalink: /projects/Project3/
 categories: [data-science, project]
 ---
 
