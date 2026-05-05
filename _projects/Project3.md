@@ -29,15 +29,15 @@ At first, this seems to suggest that population served is the key factor, howeve
 
 This project helped put into practice all the Data Science we had learned so far: cleaning messy datasets, merging data from multiple sources, engineering a meaningful target variable, training a machine learning model, and interpreting the results in context. More importantly, we were able to use data science to investigate real public-health and infrastructure questions.
 
-The final takeaway is that machine learning can help identify patterns in water system violations, but the results need to be communicated carefully. A high accuracy score is valuable, but beyond technicality, understanding why the model performs well — and what its limits are — is what turns cool code into a meaningful analysis.
+The final note is that machine learning helps to identify patterns in water system violations, but as always results require careful communication. A high accuracy score is valuable, but beyond technicality, understanding why the model performs well — and what its limits are — is what turns cool code into a meaningful analysis.
 
 ## Dataset
 - Source: https://catalog.data.gov/dataset/safe-drinking-water-information-system-sdwis
 - Description: [This dataset covers around 160,000 public water systems all around the U.S. and it included monitoring, enforcement, and violation data that was collected by states and then reported to the EPA.]
 
 ## Full Essay & Code
-- [Click here to read my full essay (PDF)](/assets/files/finalprojectwriteup.pdf)
-- [Juypter Notebook Code](/assets/files/python.html)
+- [Click here to read the full essay (PDF)](/assets/files/finalprojectwriteup.pdf)
+- [Juypter Notebook Code](/assets/files/DS_Studio_2_Project_3.html)
 
 ## Results
 ![Water Violation Poster](/assets/files/Screenshot091634.png)
