@@ -7,29 +7,29 @@ categories: [data-science, project]
 
 **Predicting Water System Violations with Data Science**
 
-Clean drinking water is something most people expect to have without thinking twice about it. You turn on the faucet, fill a glass, and trust that the water is safe. But behind that trust are thousands of water systems being monitored for possible health risks, including nitrate contamination.
+Clean drinking water is something most people expect to have without thinking twice about it. It is as simple as pouring faucet water into a cup and trusting that the water is safe. But behind that trust are thousands of public water systems being monitored for possible health risks, including nitrate contamination.
 
 For this project, my team came up with the idea of identifing patterns in nitrate-related water system violations across united state counties. Aiming for a more predicitve question then simply "which counties had violations" we instead asked:
 
-**Can we use county-level water system data to predict whether an area is likely to have a high nitrate violation rate?**
+**Can machine learning help identify counties that may be at higher risk for nitrate-related water system violations?**
 
-To answer that, we worked with several datasets related to nitrate violations, population served, groundwater systems, and surface-water systems. The first step was to clean and combine the data. Each county has a FIPS code, which acts like a county ID. Because these codes can lose leading zeroes when read into Python,  they were standardized in the code so the datasets could merge correctly. That matters because even a small coding issue like that could cause counties to mismatch or disappear from the final dataset.
+To answer that, we worked with several datasets related to nitrate violations, population served, groundwater systems, and surface-water systems. The first step was to clean and combine the data. Each county has a FIPS code, which acts like a county ID. Because these codes can lose leading zeroes when read into Python, they were standardized in the code so the datasets could merge correctly. That matters because even a small coding issue like that could cause counties to mismatch or disappear from the final dataset.
 
-After cleaning the data, we created the measure: **violations per 1,000 people served** because raw violation counts can be misleading. A county serving a much larger population might naturally have more recorded violations than a smaller county. By adjusting for population, the project compared counties more fairly.
+After cleaning the data, we created a more meaningful measure: **violations per 1,000 people served**. Raw violation counts can be misleading because larger counties or systems may naturally have more recorded violations simply because they serve more people. Adjusting by population helped us compare counties more fairly. Counties above the **75th percentile** in violations per 1,000 people were labeled as high risk, making the highest-risk quarter of counties the focus of the supervised models.
 
-Then we turned the problem into one of classification. Counties above the median violation rate were labeled as “high violation,” and counties below it were labeled as “not high violation.” A Gradient Boosting Classifier was trained using three main features:
+We compared multiple machine learning approaches. Random Forest served as a baseline model, while Gradient Boosting was used because it builds decision trees sequentially, with each new tree trying to improve on the mistakes of the previous ones. We also used K-Means Clustering to group counties based on similar characteristics rather than simply labeling them as high or low risk.
 
-* population served
-* percentage of groundwater systems with nitrate violations
-* percentage of surface-water systems with nitrate violations
+The supervised models were evaluated using accuracy, recall, F1-score, and ROC-AUC. Random Forest had slightly higher overall accuracy at **68.2%**, but it only identified **31%** of true high-risk counties. Gradient Boosting had slightly lower accuracy at **65.9%**, but it identified **69%** of true high-risk counties and achieved a higher ROC-AUC of **0.705**.
 
-The model achieved an accuracy of about **83.5%**, meaning it correctly classified most counties in the test set. More interesting is that the feature importance showed that the variable "Population served" was by far the strongest predictor, accounting for about **85%** of the model’s decision-making. Groundwater violation percentage contributed about **13%**, while surface-water violation percentage contributed only about **2%**.
+That tradeoff was one of the newest and most valuable part of this project. In a public-health context, the best model is not always the one with the highest overall accuracy. If the goal is to detect high-risk water systems, then missing a truly high-risk county is more concerning than flagging an extra county for review. Because Gradient Boosting caught far more true high-risk counties, it was the more useful model for this project.
 
-At first, this seems to suggest that population served is the key factor, however, since the target variable was calculated using population served, the model’s heavy reliance on population may partly reflect how the violation rate itself was created. In other words, the result is useful, but it is not absolute proof that population causes nitrate violations.
+K-Means Clustering added another layer of insight. It grouped counties into four categories based on population served, groundwater violation percentage, surface-water violation percentage, and violations per 1,000 people. The most concerning group was made up of smaller-population counties with the highest violation rates per 1,000 people. This is important because smaller and more rural communities can be overlooked when analysis focuses only on raw numbers or large population centers.
 
-This project helped put into practice all the Data Science we had learned so far: cleaning messy datasets, merging data from multiple sources, engineering a meaningful target variable, training a machine learning model, and interpreting the results in context. More importantly, we were able to use data science to investigate real public-health and infrastructure questions.
+The project also showed the limits of data. The dataset relies on state-reported information, and reporting gaps created major blind spots. Some areas, especially rural and lower-income regions, had limited available data. That means the absence of reported violations does not necessarily mean the absence of risk. In some cases, missing data may itself point to communities with fewer resources, less monitoring, or weaker compliance infrastructure.
 
-The final note is that machine learning helps to identify patterns in water system violations, but as always results require careful communication. A high accuracy score is valuable, but beyond technicality, understanding why the model performs well — and what its limits are — is what turns cool code into a meaningful analysis.
+Ultimately our group practiced the full data science workflow: cleaning messy data, merging multiple datasets, engineering a meaningful target variable, building classification models, evaluating performance beyond accuracy, creating geographic visualizations, and interpreting results responsibly.
+
+The takeaway was that machine learning can help reveal patterns in public-health and infrastructure data, but that the models aren't everything. A strong result is useful, but understanding what the model misses, what the data leaves out, and how the results could affect real communities is what turns cool looking code into a meaningful analysis.
 
 ## Dataset
 - Source: https://catalog.data.gov/dataset/safe-drinking-water-information-system-sdwis
