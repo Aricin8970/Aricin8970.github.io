@@ -37,7 +37,7 @@ The takeaway was that machine learning can help reveal patterns in public-health
 
 ## Full Essay & Code
 - [Click here to read the full essay (PDF)](/assets/files/finalprojectwriteup.pdf)
-- [Juypter Notebook Code](/assets/files/DS_Studio_2_Project_3-1.ipynb)
+- [Juypter Notebook Code](/assets/files/DS_Studio_2_Project_3-1.html)
 
 ## Results
 ![Water Violation Poster](/assets/files/Screenshot091634.png)
